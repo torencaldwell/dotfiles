@@ -1,6 +1,6 @@
 # Dotfiles
 
-A collection of dotfiles I use to setup my macOS dev environment
+A collection of shell scripts I use to setup my macOS dev environment
 
 ## What does this do?
 
