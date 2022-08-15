@@ -22,6 +22,6 @@ Additionally, there is a `.zshrc` file included that is setup to support these d
 
 ## How do I use this
 
-Simply run `./setup_environment.sh` to run all of the install scripts in the `init` directory
+Simply run `./setup_environment.sh` to run all of the install scripts in the `init` directory and copy the `.zshrc` to `$HOME`
 
 If one fails and you need to re-run a specific install script, you can run `./install.sh <script_name>`. For example: `./install.sh brew` would re-install homebrew
