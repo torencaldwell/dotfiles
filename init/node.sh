@@ -5,4 +5,5 @@ if ! [ -x "$(command -v node)" ]; then
 	brew install node
 	brew install watchman
 	brew install yarn
+	brew install nvm
 fi
