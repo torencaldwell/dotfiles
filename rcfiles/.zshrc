@@ -15,7 +15,8 @@ plugins=(git)
 	export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
 	export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
 	export PATH=/opt/homebrew/opt/openjdk@11/bin:$PATH
-	
+  	export NVM_DIR=$HOME/.nvm
+  	
 # Aliases
 	alias please="sudo"
 	alias gst="git status"
@@ -26,5 +27,7 @@ plugins=(git)
 	fi
 
 # Shell start
+	[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+	[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 	source $ZSH/oh-my-zsh.sh
 	parrot -loops 1 -delay 55

@@ -6,4 +6,5 @@ if ! [ -x "$(command -v node)" ]; then
 	brew install watchman
 	brew install yarn
 	brew install nvm
+	mkdir $HOME/.nvm
 fi
